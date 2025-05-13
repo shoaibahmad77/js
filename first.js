@@ -31,3 +31,4 @@ console.log("a + b =",a+b);
 a++;
 console.log(a+b);
 console.log("hello")
+console.log("waseem")
