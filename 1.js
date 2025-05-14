@@ -1,19 +1,19 @@
 // js is dynamically typed we need not to tell what we are storing in a varible
 
-// To print //
+        // To print //
 console.log("hello world");
 
 // variables:- these are the containers used to store values //
 // number
 age = 25;
 console.log(age);
-// string
+       // string
 name = "areeb";
 console.log("name");
-// boolean
+       // boolean
 isFollow = true;
 console.log(isFollow);
-/* null:- absense of any value */
+     /* null:- absense of any value */
 x = null;
 console.log(x);
 /* undefined:- means a variable has been declared but not assigned a value yet */
@@ -83,3 +83,4 @@ console.log(q);
   let school = "burnhall";
   console.log(school);
 }
+
