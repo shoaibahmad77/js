@@ -1,19 +1,19 @@
 // js is dynamically typed we need not to tell what we are storing in a varible
 
-        // To print //
+// To print //
 console.log("hello world");
 
 // variables:- these are the containers used to store values //
 // number
 age = 25;
 console.log(age);
-       // string
+// string
 name = "areeb";
 console.log("name");
-       // boolean
+// boolean
 isFollow = true;
 console.log(isFollow);
-     /* null:- absense of any value */
+/* null:- absense of any value */
 x = null;
 console.log(x);
 /* undefined:- means a variable has been declared but not assigned a value yet */
@@ -84,7 +84,6 @@ console.log(q);
   console.log(school);
 }
 
-
 // Data types in JS
 /*
 primitive 
@@ -95,50 +94,83 @@ objects ---> categories arrays,functions
 */
 // objects; are collection of values
 const student = {
-    fullName:'aaqifshafi',
-    rollno:25,
-    age:25,
-    isPass:true
-}
+  fullName: "aaqifshafi",
+  rollno: 25,
+  age: 25,
+  isPass: true,
+};
 
-console.log(student)
-console.log(typeof(student));
-// its type will be object 
-// to access particulars 
+console.log(student);
+console.log(typeof student);
+// its type will be object
+// to access particulars
 // suppose name -> student["fullName"];
 // obj.keyname -> student.fullName;
-console.log(student["age"])
+console.log(student["age"]);
 console.log(student.fullName);
-// to assign new values in object 
-// lets change the name 
-student['fullName']='tazish'
-console.log(student.fullName)
-// const mai change ne hota but const obj mai change hota hai 
+// to assign new values in object
+// lets change the name
+student["fullName"] = "tazish";
+console.log(student.fullName);
+// const mai change ne hota but const obj mai change hota hai
 
 //Qs1: create a const objects called "product" to store information shown in picture.
 
-const product={
-    item_name:'parker pen',
-    ratings:'4 stars',
-    price:270,
-    deal:'50% off'
-}
+const product = {
+  item_name: "parker pen",
+  ratings: "4 stars",
+  price: 270,
+  deal: "50% off",
+};
 console.log(product);
 
-product['ratings']='5 stars';
-product['deal']='45% off'
+product["ratings"] = "5 stars";
+product["deal"] = "45% off";
 console.log(product);
 console.log(product.item_name);
 
 // create a const object called 'profile' to store information.
 
-const profile ={
-    user_name:'shardakhapra',
-    posts:198,
-    followers:'569k',
-    isFollow:true,
-    bio:"apna college| ex-microsoft,DRDO"
-}
+const profile = {
+  user_name: "shardakhapra",
+  posts: 198,
+  followers: "569k",
+  isFollow: true,
+  bio: "apna college| ex-microsoft,DRDO",
+};
 console.log(profile);
 console.log(profile.user_name);
-console.log(profile['isFollow']);
+console.log(profile["isFollow"]);
+// operators: these are used to perform operations.
+
+//arithemic operators
+
+let a = 5;
+let b = 2;
+console.log("a+b=", a + b);
+console.log("a-b=", a - b);
+console.log("a/b=", a / b);
+console.log("a*b=", a * b);
+console.log("a**b=", a ** b);
+console.log("a%b", a % b);
+// unary operator 
+// a++ post    increment       ++a pre
+// a-- post    increment       --a pre
+//post says value will change from next line pre will change first example
+
+let A =3
+console.log("A=",A)
+console.log("A",A++)
+console.log(A)
+
+let aa=3
+console.log("aa=",aa--)
+console.log("aa=",aa)
+
+
+
+
+
+
+
+ 
