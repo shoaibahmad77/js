@@ -43,3 +43,13 @@ product['deal']='45% off'
 console.log(product);
 console.log(product.item_name);
 
+// create a const object called 'profile' to store information.
+
+const profile ={
+    user_name:'shardakhapra',
+    posts:198,
+    followers:'569k',
+    isFollow:true,
+    bio:"apna college| ex-microsoft,DRDO"
+}
+console.log(profile);
