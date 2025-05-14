@@ -166,8 +166,15 @@ console.log(A)
 let aa=3
 console.log("aa=",aa--)
 console.log("aa=",aa)
+// assigment operators
+// =, +=,  -= , *= , %=,  **=
 
-
+let xx = 2;
+let yy = 3;
+xx += 4;
+console.log(xx)
+yy *= 5
+console.log(yy)
 
 
 
