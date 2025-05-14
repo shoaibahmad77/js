@@ -1,9 +1,9 @@
 // js is dynamically typed we need not to tell what we are storing in a varible
 
-                // To print //
+// To print //
 console.log("hello world");
 
-     // variables:- these are the containers used to store values //
+// variables:- these are the containers used to store values //
 // number
 age = 25;
 console.log(age);
@@ -33,26 +33,25 @@ console.log(1name);
 
 4. reserved words cannot be variables names eg console = 25;
 */
-         //   let,const and var  //
-
+//   let,const and var  //
 
 //  var: variable can be re-declared and updated.a global scope variable
 
 //  let: variable cannot  be re-declared but can be updated.a block scope variable.
 
 //  const: variable cannot be re-declared or updated. a block scope variable.
-let fullName = 'shoaib';
+let fullName = "shoaib";
 console.log(fullName);
- // here we updated 
+// here we updated
 let rollno = 27;
 rollno = 28;
-console.log(rollno); 
+console.log(rollno);
 // here we re- declared and updated
-var girlname= "bella"
-var girlname= "nabeeha"
+var girlname = "bella";
+var girlname = "nabeeha";
 console.log(girlname);
 
-const section = 'green';
+const section = "green";
 console.log(section);
 /*
    this will cause error as            const is fixed 
@@ -60,9 +59,9 @@ section = 'red'
 console.log(section)
 */
 let q;
-console.log(q); 
+console.log(q);
 // yaha pahlay undefined hojaye ga then after value assign kr k ajaye ge
-q = 'apple'
+q = "apple";
 console.log(q);
 /*  yaha tho error ajaye ga const ko hmaya sha phalay he value dhay ne padi ge meatlab initilize krna pade ga , 'let' mai zaruri ne hai*/
 /*
@@ -70,9 +69,17 @@ console.log(q);
         color ='blue'
         console.log(color);
 */
+// block scope means { curly braces}
+{
+  let school = "biscoe";
+  console.log(school);
+  let gov = "bjp";
+  console.log(gov);
+  // but if i redefine error aye ga tho usko alag block mai krna pade ga
+  // school ='burnhall'
+}
 
-
-
-
-
-
+{
+  let school = "burnhall";
+  console.log(school);
+}
