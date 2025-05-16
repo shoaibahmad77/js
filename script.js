@@ -370,3 +370,22 @@ let order={
 }
 order.quantity=5;
 console.log(order);
+// ternary operator:- 
+// ? :    a?b:c
+let ball=6;
+ball>5 ? "six" : "hello";
+console.log(ball);
+
+let scorre = 75;
+let result = scorre >= 60 ? "Pass" : "Fail";
+console.log(result);
+
+
+let gender="male"
+gender==="male" ? "its a boy" : 'its a girl';
+console.log(gender);
+
+// MDN documents
+
+
+
