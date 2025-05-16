@@ -202,6 +202,20 @@ console.log(item3!==item4)
 console.log("4>5",item3 > item4);
 console.log("4<5",item3 < item4);
 console.log("4=5",item3==item4);
-/
+console.log("4>=5", item3>=item4);
+console.log("4<=5", item3<=item4);
+//logical operators depending upto both ouputs what final answer will be
+// logical AND &&  if both true output will be true
+// logical OR || if both false output will be false
+// logical NOT ! if true output false and viceversa
+ let num1 = 6;
+ let num2 = 4;
+
+let condi1 = num1 > num2;
+let condi2 = num1 ===6;
+console.log("condi1 && condi2",condi1 && condi2);
+
+
+
 
  
