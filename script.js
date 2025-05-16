@@ -208,14 +208,165 @@ console.log("4<=5", item3<=item4);
 // logical AND &&  if both true output will be true
 // logical OR || if both false output will be false
 // logical NOT ! if true output false and viceversa
- let num1 = 6;
+ let num1 = 5;
  let num2 = 4;
 
 let condi1 = num1 > num2;
-let condi2 = num1 ===6;
+let condi2 = num1 ===5;
 console.log("condi1 && condi2",condi1 && condi2);
+let num3 = 5;
+let num4 =5;
+let condi3= num3 > num4;
+let condi4= num3 < num4;
+console.log("condi3 || condi4", condi3 || condi4);
+let no1= 4;
+let no2= 5;
+let condition = no1 > no2
+console.log(" not no1>no2", !(no1 > no2));
+console.log("no2 >no1", !(no2 ===no1));
+//conditional statemnets :- to implement some conditions in the code 
 
+// if statement 
+//  if ( condtion ) {}
 
+let age1 = 15;
+if ( age1>18){
+  console.log("you can drive")
+}
+if (age1<18){
+  console.log("you cant drive")
+}
+// conditional statements for dark/light mode on our chrome
+let mode = "light"; // here mode is set to light so we get output 'light'
+let color;
+if(mode==="dark"){
+  color="black"
+  
+}
+if (mode==="light"){
+  color="white"
+}
+console.log(color);
+// if else :- 'if' condition true console  if not then  'else' console 
 
 
  
+let umer=18;
+if(umer=18){
+  console.log("you can vote")
+}
+else{
+  console.log('you cant vote')
+}
+// let modee= 'black'
+// let colorr;
+// if(modee==="black"){
+//   colorr="kala bacha"
+// } 
+// else{
+//   colorr="gora bacha"
+// }
+// console.log(colorr)
+let modee='dark'
+let colorr;
+if(modee==='dark'){
+  colorr="black"
+}
+if(modee==='light'){
+  colorr='white'
+}
+console.log(colorr);
+
+let nom1=6
+if(nom1%2===0){
+  console.log(nom1,'is even')
+}
+else{
+  console.log(nom1,'is odd')
+}
+
+let person;
+if(person<25){
+  console.log('you are teen',)
+}
+else if(person<18){
+  console.log('you are less than 18 and thus minor')
+}
+else if(person>25)
+{
+  console.log('you are old')
+}
+else{
+  console.log('enter age')
+}
+//Check if a number num = 10 is positive. Output "Positive" if true, otherwise "Not Positive".
+let check=10;
+if(check>0){
+  console.log('its positive')
+
+}
+else{
+ 
+  console.log('its negative')
+}
+//Question: Determine if a variable age = 18 is eligible to vote (age >= 18). Output "Eligible" if true, otherwise "Not Eligible".
+let variable_age = 18;
+if(variable_age>=18){
+  console.log('eligible')
+}
+else{
+  console.log('not eligible')
+}
+//Question: Check if a number score = 75 is passing (score >= 60). Output "Pass" if true, otherwise "Fail".
+let score = 75;
+if(score>=60){
+  console.log('pass')
+}
+else{
+  console.log('fail')
+}
+// Question: Create an object person with properties name: "Alex" and age: 25. Output the value of name.
+let person_ ={
+name:'alex',
+age:25
+}
+console.log(person_)
+// Question: Create an object book with properties title: "JavaScript Basics" and pages: 200. Add a new property author: "Jane Doe". Output the value of author.
+let book ={
+  title:'javascript basics',
+  pages:200
+}
+book.author='Jane Doe';
+console.log(book.author)
+console.log(book)
+// Question: Create an object student with properties id: 101 and grade: "B". Update grade to "A". Output the updated grade.
+let studentss={
+  id: 101,
+  grade: "B"
+}
+studentss['grade']='A' // or we can use studentss.grade='A';
+// this will also update 
+console.log(studentss)
+console.log(studentss.grade)
+
+// Question: Create an object house with properties rooms: 3 and city: "Boston". Update rooms to 4. Output the updated rooms.
+let house={
+  rooms: 3,
+  city: "Boston"
+}
+house.rooms=4;
+console.log(house);
+// Question: Create an object pet with properties type: "Dog" and age: 2. Add a property name: "Buddy". Output the entire object.
+let pet = {
+  type: "Dog",
+  age: 2
+}
+pet.buddy='hemlo' // add property
+console.log(pet);
+// Question: Create an object order with properties item: "Shirt" and quantity: 2. Update quantity to 5. Output the entire object.
+let order={
+  item: "Shirt",
+  quantity: 2
+}
+order.quantity=5;
+console.log(order);
