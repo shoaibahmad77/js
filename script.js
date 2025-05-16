@@ -166,8 +166,10 @@ console.log(A)
 let aa=3
 console.log("aa=",aa--)
 console.log("aa=",aa)
-// assigment operators
+// assigment operators :- used to assign values
+
 // =, +=,  -= , *= , %=,  **=
+// xx += 4 means xx= xx+4 
 
 let xx = 2;
 let yy = 3;
@@ -176,8 +178,30 @@ console.log(xx)
 yy *= 5
 console.log(yy)
 
+// comparison :- used for comparison of 2 values
+// equal to ==
+//equal to and type ===
+// not equal to !=
+// not equal to and type !==
+let item1 = 2;
+let item2 = 3;
+console.log("item1 == item2",item1==item2)
 
+console.log("item1 == item2",item1!=item2)
 
+// i case i did let item1=2 item2="2" console.log(item1==item2 )  ---> string -> number by js itself and also its not a strict check so we get true
+item2 =2
+console.log(item1==item2)
+//now strict check ===
+let item3 = 4;
+let item4 = 5;
+console.log(item3===item4);
+// we get false
+console.log(item3!==item4)
+
+console.log("4>5",item3 > item4);
+console.log("4<5",item3 < item4);
+console.log("4=5",item3==item4);
 
 
  
