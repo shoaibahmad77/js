@@ -385,7 +385,53 @@ let gender="male"
 gender==="male" ? "its a boy" : 'its a girl';
 console.log(gender);
 
-// MDN documents
+// MDN documents to study
+// switch statement
 
+let day =2;
+let dayname;
+switch(day){
+  case 1:
+    dayname ='monday'
+    break;
+    case 2:
+      dayname ='tuesday'
+      break;
+}
+console.log(dayname);
 
-
+// alert("hello"); // create one time pop-up
+// prompt(" ") for taking input
+let enter_name = prompt("enter name");
+console.log(enter_name);
+if(enter_name==='shoaib'){
+  console.log('authorized')
+}
+else{
+  console.log('not authorized');
+}
+// get input check if its multiple of 5
+let get_number = prompt('enter a number')
+if(get_number%5===0){
+  console.log(get_number,'it is multiple of 5 ')
+}
+else{
+  console.log('it is not');
+}
+// write a code which can give grade to student acc t their scores
+let grade =prompt('enter marks');
+if(grade>=80 && grade<=100){
+  console.log('grade is A')
+}
+if(grade>=70 && grade<=89){
+  console.log('grade is B')
+}
+else if(grade>=60 && grade<=69){
+  console.log('grade is C')
+}
+else if(grade>=50 && grade<=59){
+  console.log('grade is D')
+}
+ else if(grade>=0 && grade <=49){
+  console.log('grade is F')
+}
