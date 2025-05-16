@@ -202,6 +202,6 @@ console.log(item3!==item4)
 console.log("4>5",item3 > item4);
 console.log("4<5",item3 < item4);
 console.log("4=5",item3==item4);
-
+/
 
  
