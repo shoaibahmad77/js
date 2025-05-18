@@ -489,7 +489,15 @@
 // while(math<=5);
 // for-of loop used for strings and arrays
 //eg 
- let str="haseeb";
+ let str="zaryab"
  for(let i of str){
-  console.log("i=",i);
+  console.log("str",i)
+ }
+ // for-in loop for objects
+ let clan ={
+  student1:"burhan",
+  student2:"sachet"
+ }
+ for (let i in clan){
+  console.log(i);
  }
