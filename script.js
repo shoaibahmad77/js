@@ -1,22 +1,22 @@
 //  js is dynamically typed we need not to tell what we are storing in a varible
 
-// To print 
+// To print
 // console.log("hello world");
 
 //  variables:- these are the containers used to store values //
 // number
 // age = 25;
 // console.log(age);
- // string
+// string
 // name = "areeb";
 // console.log("name");
- // boolean
+// boolean
 // isFollow = true;
 // console.log(isFollow);
 /* null:- absense of any value */
 // x = null;
 // console.log(x);
-//  undefined:- means a variable has been declared but not assigned a value yet 
+//  undefined:- means a variable has been declared but not assigned a value yet
 // y = undefined;
 // console.log(y);
 //             variables rules
@@ -26,13 +26,13 @@
 //    below eg will show error
 
 // 1name = "shoaib"
-// console.log(1name); 
+// console.log(1name);
 
 // 3. only letters,underscore(_) and $ can be 1st character
 
 // 4. reserved words cannot be variables names eg console = 25;
 
-//  let,const and var  
+//  let,const and var
 
 //   var: variable can be re-declared and updated.a global scope variable
 
@@ -52,8 +52,8 @@
 
 // const section = "green";
 // console.log(section);
-// 
-//    this will cause error as            const is fixed 
+//
+//    this will cause error as            const is fixed
 // section = 'red'
 // console.log(section)
 
@@ -85,12 +85,12 @@
 
 //  Data types in JS
 //
-// primitive 
+// primitive
 // string,boolean,number,undefined,null,BigInt,symbol
 
 // non-primitive
 // objects ---> categories arrays,functions
-// 
+//
 //objects; are collection of values
 // const student = {
 //   fullName: "aaqifshafi",
@@ -223,7 +223,7 @@
 // let condition = no1 > no2;
 // console.log(" not no1>no2", !(no1 > no2));
 // console.log("no2 >no1", !(no2 === no1));
- //conditional statemnets :- to implement some conditions in the code
+//conditional statemnets :- to implement some conditions in the code
 
 // // if statement
 // //  if ( condtion ) {}
@@ -428,9 +428,68 @@
 //   console.log("5x times print");
 // }
 // calculate sum of 1 to 5
-let sum =0;
-for (let i=1; i<=5;i++){
-  sum = sum+i
+// let sum =0;
+// for (let i=1; i<=5;i++){
+//   sum = sum+i
 
-}
-console.log("sum from 1-5 is :",sum);
+// }
+// // global and block scope
+// // console.log("sum from 1-5 is :",sum);
+// // for(let j=0; j<=5; j++){
+// //   console.log("j=",j)
+// // }
+// // console.log(j); // ye define ne hoga qke we have used let jiska block scope hota hai {}
+
+// // now if we have used var
+// var k=1;
+// for(k=1; k<=5;k++){
+//   console.log("k=",k)
+// }
+// console.log(k) // 6 hoga print coz last value 6 thena
+// // infinite loop :- loop that never ends never do it in a program
+
+// //while loop , while(condition ) {}
+// let balance=10;
+// while(balance<=15){
+//   console.log("numbers are", balance)
+//    balance++;
+//    }
+
+// //suming 1-5 using while
+// let summing=0;
+// while(summing<=5){
+//   summing= summing+1;
+//   console.log("are as",summing);
+// }
+
+// for(var gen =1;gen<=5;gen++){
+//   console.log( "gen is ",gen);
+// }
+// console.log(gen)
+// do while loop
+// do {
+// od some work}
+// while {}
+// let kk=10
+// while(kk<=5){
+//   console.log(kk)
+// }  this would not run ek bar b run ne huwa coz of condtion but do while mai first time run hog athen condition check hogi
+
+// let yt = 20;
+// do {
+//   console.log("apna college");
+//   yt++;
+// } while (yt <= 10);
+// print 1-5 using do while
+// let math = 1;
+// do {
+//   console.log("1-5 print",math)
+//   math++;
+// }
+// while(math<=5);
+// for-of loop used for strings and arrays
+//eg 
+ let str="haseeb";
+ for(let i of str){
+  console.log("i=",i);
+ }
