@@ -37,4 +37,48 @@ console.log(y);
 isFollow = true;
 console.log(isFollow);
 
+// let , const & var
+/*
+var : can be redeclared and updated, global scope(can be used any where in the code).
+let : cannot be redeclared but can be updated, block scope (cant be used any where in the code ).
+const : cannot be redeclared or updated, a block scope variable.
+*/
+
+let name_ = 'james';
+console.log(name);
+let age_ = 23;
+console.log(age_); 
+// it has block scope 
+{ 
+   let a = 77;
+   console.log(a); 
+}
+// can be used within block now if we want to re-update it we make new block
+{
+   let a = 89;
+   console.log(a);
+}
+
+
+
+
+
+/* we can declare let a;
+console.log(a);
+output will be undefined
+*/
+
+
+var _name = 'basit'; // last updated value will be output
+var _name = 'waseem';
+console.log(_name);
+
+const PI = 3.14;
+console.log(PI);
+
+/* we cant declare const a;
+we get error so it should be given error always , its value should be initialized */
+
+
+
  
