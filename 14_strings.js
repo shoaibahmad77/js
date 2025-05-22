@@ -37,3 +37,6 @@ student.school = "biscoe";
 console.log(
   `the name of the student is ${student.name} and he reads in class ${student.class} and studies in ${student.school} school`
 );
+//this technique is called string interpolation
+// escape character :- used fro string next line
+console.log("apna \n college")
