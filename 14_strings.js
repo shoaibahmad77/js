@@ -42,7 +42,7 @@ a way to have embedded expersions in strings
 // console.log("apna \n college")
 // tab space /t
 // let word ='hello\tworld'  //12
-// console.log(word.length) 
+// console.log(word.length)
 // \t counts as 1 length
 
 // string methods :- methods to manipulate a string
@@ -50,6 +50,15 @@ a way to have embedded expersions in strings
 str.toUpperCase()
 str.toLowerCase()
 str.trim() // remove whitespaces
+str.slice(start,end?) //returns part of string
+
+str1.concat(str2) // joins str2 withs str1
+
+str.replace(searchVal,newval) // used to search a value in string
+str.charAt(idx) // to find a char at a index
+
+
+
 */
 
 // console.log(word.toLocaleUpperCase())
@@ -59,7 +68,42 @@ str.trim() // remove whitespaces
 // console.log(str)
 // console.log(new_str)
 
-// strings are immutable  we cant change 
+// strings are immutable  we cant change
 // trim :- starting and ending ke gaps khtm krta hai
-let str ="     hello  apna   college   "
-console.log(str.trim())
+// let str = "     hello  apna   college   ";
+// console.log(str.trim());
+
+// use of slice method
+// let name="0123456";
+// console.log(name.slice(2,5)) //234
+// let str="hello"
+// console.log(str.slice(1,5))
+// console.log(str.slice(1,3))
+
+// let  str1 ='zaryab'
+// let str2 = '\tlemda'
+// console.log(str1.concat(str2));
+
+// let searchVal = 'hello ' + 'world' // also a concat
+
+// console.log(searchVal)
+
+// let str = "hello";
+// console.log(str.replace("h", "y"));
+// console.log(str.replace('lo','p'))
+
+// let str ='i love js'
+// console.log(str.charAt(2))
+//ques: prompt the user to enter their full name. generate a username for them based on thr input  start username with@ followed by their full name and ending with the fullname length.
+// eg shardakhapra , should be @shardakhapra13
+
+// let your_name = prompt('enter your full name');
+
+// let str2 = "@";
+// let str3 = str2.concat(your_name)
+// let username = str3.concat(your_name.length);
+// console.log(username);
+
+
+
+
