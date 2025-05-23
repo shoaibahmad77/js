@@ -40,6 +40,34 @@
 
 // methods in arrays push()add to end, pop () delete from end and return ,toString() converts array to string
 
-let veggies = ["carrot", "potato", "apple"];
-veggies.push("tomato");
-console.log(veggies);
+//push()
+let items = ["carrot", "potato", "apple"];
+items.push("tomato", "burger", "chips");
+console.log(items);
+
+// pop()
+items.pop();
+console.log(items);
+// output carrot ,potato,apple,tomato,burger
+// toString
+console.log(items.toString());
+
+// why do this maybe sometimes data needed in the form of string
+
+// contact() to joins multiple arrays and returns new result
+
+let marvel_heros = ["spiderman", "thor", "ironman"];
+let dc_heroes = ["superman", "batman"];
+let indian_heros = ["shaktiman"];
+let hero = marvel_heros.concat(dc_heroes, indian_heros);
+console.log(hero);
+
+// unshift( )  adds elemet at start of array
+
+marvel_heros.unshift('antman')
+console.log(marvel_heros)
+
+//shift () returns deleted value 1st value in array
+let students= ['waseem','sabiq']
+let val = students.shift();
+console.log('deleted value is ',val)
