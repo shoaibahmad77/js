@@ -65,21 +65,18 @@ console.log(x) it will show undefined...
 // };
 // printHello()
 
-// ques : create a function that takes a string as argument and return the number of vowels in the string
-function count(str) {
-  let count = 0;
-  for (let i of str) {
-    console.log(i);
-    if (
-      i === "a" ||
-      i === "e" ||
-      i === "i" ||
-      i === "o" ||
-      i === "u"
-    ) {
-      count++;
+
+   
+    //  Write a regular function and an arrow function to calculate the square of a number
+    
+    function square(a){
+        s=a**2
+        console.log(s)
     }
-  }
-  console.log(count);
-}
-count("zaryab");
+    square(3)
+
+    let arrowSquare =(a)=>{
+        console.log(a**2)
+    }
+    arrowSquare(2)
+   
