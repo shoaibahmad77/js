@@ -65,18 +65,18 @@ console.log(x) it will show undefined...
 // };
 // printHello()
 
+//  Write a regular function and an arrow function to calculate the square of a number
 
-   
-    //  Write a regular function and an arrow function to calculate the square of a number
-    
-    function square(a){
-        s=a**2
-        console.log(s)
-    }
-    square(3)
+// function square(a){
+//     s=a**2
+//     console.log(s)
+// }
+// square(3)
 
-    let arrowSquare =(a)=>{
-        console.log(a**2)
-    }
-    arrowSquare(2)
-   
+// let arrowSquare =(a)=>{
+//     console.log(a**2)
+// }
+// arrowSquare(2)
+
+
+
