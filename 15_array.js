@@ -102,11 +102,12 @@
 // ques; create an array to store companies , bloomberg, microsoft,uber ,google,ibm,netflix
 // a. remove the first compnay from the array, b. remove uber and add ola, c. add amazon at the end.
 
-let companies=[ 'bloomberg', 'microsoft','uber','google','ibm','netflix']
+// let companies=[ 'bloomberg', 'microsoft','uber','google','ibm','netflix']
 
-companies.splice(0,1)
-console.log(companies)
-companies.splice(1,1,'ola')
-console.log(companies)
-companies.splice(6,0,'amazon')
-console.log(companies)
+// companies.splice(0,1)
+// console.log(companies)
+// companies.splice(1,1,'ola')
+// console.log(companies)
+// companies.splice(6,0,'amazon')
+// console.log(companies)
+
