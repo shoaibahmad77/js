@@ -55,12 +55,31 @@ console.log(x) it will show undefined...
 
 // multiplication = 5; phalay tho ye fucntion tha ab normal variale hai jismai value store hai
 
-const arrowMul = (a, b) => {
-  return a * b;
-};
+// const arrowMul = (a, b) => {
+//   return a * b;
+// };
 // create an arrow function for print hello
 
-let printHello = () => {
-  console.log("hello");
-};
-printHello()
+// let printHello = () => {
+//   console.log("hello");
+// };
+// printHello()
+
+// ques : create a function that takes a string as argument and return the number of vowels in the string
+function count(str) {
+  let count = 0;
+  for (let i of str) {
+    console.log(i);
+    if (
+      i === "a" ||
+      i === "e" ||
+      i === "i" ||
+      i === "o" ||
+      i === "u"
+    ) {
+      count++;
+    }
+  }
+  console.log(count);
+}
+count("zaryab");
