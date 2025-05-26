@@ -31,12 +31,3 @@ let places=['gp road','gujarnagar']
 places.forEach((val)=>{
     console.log(val.toUpperCase())
 })
-
-let name=prompt('entername')
-
-if(name==='zaryab'){
-    console.log(`your name is ${name} and you are randwa`)
-}
-else{
-    console.log("loda")
-}
