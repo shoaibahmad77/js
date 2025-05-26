@@ -80,3 +80,24 @@ console.log(x) it will show undefined...
 
 
 
+/* 
+
+function add(a,b){
+   return a+b
+}
+let result = add(3,5)
+console.log(result)
+
+
+// return gives result back to program unlike displaying like log making the result reusable
+
+function addLog(a, b) {
+   console.log(a + b); // Shouts the result
+}
+addLog(2, 3); // Shows: 5 in the console
+let result = addLog(2, 3); // Shows: 5, but result is undefined
+console.log(result); // Shows: undefined (no pizza was handed to you!)
+
+*/
+
+
