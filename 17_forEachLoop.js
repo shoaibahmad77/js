@@ -23,11 +23,18 @@
 //     console.log(`number:${val}`)
 // } )
 // now using arrow function
-let numbers =[80,44,58]
-numbers.forEach((val)=>{
-    console.log(`number:${val}`)
-})
-let places=['gp road','gujarnagar']
-places.forEach((val)=>{
-    console.log(val.toUpperCase())
-})
+// let numbers =[80,44,58]
+// numbers.forEach((val)=>{
+//     console.log(`number:${val}`)
+// })
+// let places=['gp road','gujarnagar']
+// places.forEach((val)=>{
+//     console.log(val.toUpperCase())
+// })
+
+
+
+// let number =[33,7279,3283,32]
+// number.forEach(function prints(j){
+//     console.log(j)
+// })
