@@ -6,13 +6,37 @@
 // functions in js can be passed as parameter  and  we can return a value of a function also
 
 // callback func a func passed as an argument  to another function
-let arrays = [1,2,3,4,5,6,7]
+// let arrays = [1,2,3,4,5,6,7]
 
-arrays.forEach(function arr(val){
-    console.log(val)
+// arrays.forEach(function arr(val){
+//     console.log(val)
+// })
+// // 1. Print Each Element in an Array
+// let places =['delhi','jammu','kashmir']
+// places.forEach((val)=>{
+//     console.log(val)
+// })
+// Question: Use a forEach loop to print each number in an array with the message “Number: X”, where X is the number. Write it using both a traditional function and an arrow function.
+
+// let numbers =[11,12,13]
+// numbers.forEach(function msg(val){
+//     console.log(`number:${val}`)
+// } )
+// now using arrow function
+let numbers =[80,44,58]
+numbers.forEach((val)=>{
+    console.log(`number:${val}`)
 })
-
-let places =['delhi','jammu','kashmir']
+let places=['gp road','gujarnagar']
 places.forEach((val)=>{
-    console.log(val)
+    console.log(val.toUpperCase())
 })
+
+let name=prompt('entername')
+
+if(name==='zaryab'){
+    console.log(`your name is ${name} and you are randwa`)
+}
+else{
+    console.log("loda")
+}
