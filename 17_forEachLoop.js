@@ -38,3 +38,14 @@
 // number.forEach(function prints(j){
 //     console.log(j)
 // })
+
+//
+
+let friends =['waseem','asrar','sabiq','farman']
+
+friends.forEach(function jenny(val,j){
+    console.log(val,j)
+    
+})
+
+

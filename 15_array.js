@@ -110,4 +110,5 @@
 // console.log(companies)
 // companies.splice(6,0,'amazon')
 // console.log(companies)
+// map , reduce filter ...
 
